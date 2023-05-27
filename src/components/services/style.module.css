@@ -1,0 +1,71 @@
+.servicesSectionMain {
+  background-color: #f7f9fd;
+}
+
+.servicesSection {
+  padding: 10.2rem 0;
+}
+.servicesSection_header {
+  text-align: center;
+}
+.servicesSection_header p {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 2.8rem;
+  line-height: 4.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 1.6rem;
+  font-family: 'DM Sans';
+}
+.servicesSection_header h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.4rem;
+  color: #1c2035;
+  margin-bottom: 5.6rem;
+}
+.servicesSection_services_row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40.1rem, 1fr));
+  gap: 3rem;
+  justify-items: center;
+}
+.servicesSection_services_service {
+  max-width: 410px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eff0f6;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  -webkit-box-shadow: 0 0.6rem 0.5rem rgba(28, 32, 53, 0.06);
+  box-shadow: 0 0.6rem 0.5rem rgba(28, 32, 53, 0.06);
+  border-radius: 1.2rem;
+  padding: 4.2rem 0;
+  text-align: center;
+}
+.servicesSection_services_service:hover {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  border-bottom: 3px solid var(--primaryBlue);
+}
+.servicesSection_services_service h3 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 4.6rem;
+  color: #1c2035;
+}
+.servicesSection_services_service p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #555;
+  max-width: 25rem;
+  margin: 0 auto;
+}

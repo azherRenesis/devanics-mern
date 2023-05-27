@@ -1,0 +1,44 @@
+.main {
+  position: absolute;
+  width: 100%;
+}
+.mainPageHeader {
+  background-image: url(../../public/images/hero_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9.3rem;
+}
+.headerContent {
+  min-height: calc(100vh - 9.3rem);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.headerContent h2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.headerContent h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.headerContent p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+}
